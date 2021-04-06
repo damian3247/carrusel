@@ -1,4 +1,4 @@
-# carrusel simple
+# Carrusel simple
 
 Carrusel simple hecho en PHP  para colocar en sites, etc, sin usar base de datos
 
