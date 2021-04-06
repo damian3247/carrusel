@@ -1,6 +1,3 @@
-<?php
-include "../inclusiones/header.php";
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,6 +5,8 @@ include "../inclusiones/header.php";
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrusel</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
 </head>
 <?php
 $carpeta = "imagen/";
@@ -82,10 +81,8 @@ closedir($carpetaAbierta);
     </div>
 </body>
 
+<script src="js/jquery-3.5.1.js"></script>
+<script src="js/bootstrap.js"></script>
+
+
 </html>
-<?php
-include "../inclusiones/footer.php";
-
-
-
-?>
